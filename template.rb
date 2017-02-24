@@ -24,4 +24,3 @@ end
 
 
 #gsub_file 'config/database.yml', '# Warning: The database defined as "test" will be erased and', 'method.the_replacing_code'
-run "~/#{name}/template_pg >> ~/#{name}/#{@app_path}/config/database.yml"
